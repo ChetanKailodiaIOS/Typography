@@ -9,6 +9,10 @@ The goal of Typography is to provide a high-level elegant for expressing typogra
 # Features
 
  Dynamic Type support for UILabel, UIButton, UITextField and UITextView as well as some support for NSAttributedString.
+ 
+ # Usage
+
+  You can download sample project and add file #Typography in your project.
 
 # Author
 
