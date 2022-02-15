@@ -12,7 +12,7 @@ The goal of Typography is to provide a high-level elegant for expressing typogra
  
  # Usage
 
-  You can download sample project and add file @Typography in your project.
+  You can download sample project and add Typography folder in your project.
 
 # Author
 
