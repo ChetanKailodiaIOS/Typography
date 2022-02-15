@@ -12,4 +12,4 @@ The goal of Typography is to provide a high-level elegant for expressing typogra
 
 # Author
 
-https://github.com/Chetanideal
+Chetan ideal
