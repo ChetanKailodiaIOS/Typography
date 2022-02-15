@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0478B3C027BA271A00645CC3 /* TextViewTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478B3BF27BA271A00645CC3 /* TextViewTypography.swift */; };
+		0478B3C527BA2E0000645CC3 /* ButtonTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478B3C427BA2E0000645CC3 /* ButtonTypography.swift */; };
+		0478B3C827BA2EDF00645CC3 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478B3C727BA2EDF00645CC3 /* ButtonViewController.swift */; };
+		047C5F9F27B626FA00F4EE3C /* LabelTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5F9E27B626FA00F4EE3C /* LabelTypography.swift */; };
+		047C5FAF27B6447500F4EE3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FAE27B6447500F4EE3C /* main.swift */; };
+		047C5FB227B6449A00F4EE3C /* TypographyApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FB127B6449A00F4EE3C /* TypographyApplication.swift */; };
+		047C5FBA27B665D600F4EE3C /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FB927B665D600F4EE3C /* TextFieldViewController.swift */; };
+		047C5FC127B66E5E00F4EE3C /* TextFieldTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FC027B66E5E00F4EE3C /* TextFieldTypography.swift */; };
+		047C5FC627B66EE400F4EE3C /* TypographySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FC527B66EE400F4EE3C /* TypographySupport.swift */; };
+		047C5FCC27B66FAC00F4EE3C /* TypographyAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FCB27B66FAC00F4EE3C /* TypographyAttributedText.swift */; };
+		047C5FD127B688C800F4EE3C /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C5FD027B688C800F4EE3C /* TextViewViewController.swift */; };
+		0496EAFD27B533F00027D5A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496EAFC27B533F00027D5A8 /* AppDelegate.swift */; };
+		0496EAFF27B533F00027D5A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496EAFE27B533F00027D5A8 /* SceneDelegate.swift */; };
+		0496EB0127B533F00027D5A8 /* LableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496EB0027B533F00027D5A8 /* LableViewController.swift */; };
+		0496EB0427B533F00027D5A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496EB0227B533F00027D5A8 /* Main.storyboard */; };
+		0496EB0627B533F20027D5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0496EB0527B533F20027D5A8 /* Assets.xcassets */; };
+		0496EB0927B533F20027D5A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496EB0727B533F20027D5A8 /* LaunchScreen.storyboard */; };
+		0496EB2527B54FEE0027D5A8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0496EB2227B54FEE0027D5A8 /* Roboto-Medium.ttf */; };
+		0496EB2627B54FEE0027D5A8 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0496EB2327B54FEE0027D5A8 /* Roboto-Light.ttf */; };
+		0496EB2727B54FEE0027D5A8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0496EB2427B54FEE0027D5A8 /* Roboto-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0478B3BF27BA271A00645CC3 /* TextViewTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTypography.swift; sourceTree = "<group>"; };
+		0478B3C427BA2E0000645CC3 /* ButtonTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTypography.swift; sourceTree = "<group>"; };
+		0478B3C727BA2EDF00645CC3 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		047C5F9E27B626FA00F4EE3C /* LabelTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTypography.swift; sourceTree = "<group>"; };
+		047C5FAE27B6447500F4EE3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		047C5FB127B6449A00F4EE3C /* TypographyApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyApplication.swift; sourceTree = "<group>"; };
+		047C5FB927B665D600F4EE3C /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		047C5FC027B66E5E00F4EE3C /* TextFieldTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTypography.swift; sourceTree = "<group>"; };
+		047C5FC527B66EE400F4EE3C /* TypographySupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographySupport.swift; sourceTree = "<group>"; };
+		047C5FCB27B66FAC00F4EE3C /* TypographyAttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyAttributedText.swift; sourceTree = "<group>"; };
+		047C5FD027B688C800F4EE3C /* TextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
+		0496EAF927B533F00027D5A8 /* TypographyLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypographyLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0496EAFC27B533F00027D5A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0496EAFE27B533F00027D5A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0496EB0027B533F00027D5A8 /* LableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableViewController.swift; sourceTree = "<group>"; };
+		0496EB0327B533F00027D5A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0496EB0527B533F20027D5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0496EB0827B533F20027D5A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0496EB0A27B533F20027D5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0496EB2227B54FEE0027D5A8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0496EB2327B54FEE0027D5A8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		0496EB2427B54FEE0027D5A8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0496EAF627B533F00027D5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0478B3BE27BA26F800645CC3 /* TextViewTypography */ = {
+			isa = PBXGroup;
+			children = (
+				0478B3BF27BA271A00645CC3 /* TextViewTypography.swift */,
+			);
+			path = TextViewTypography;
+			sourceTree = "<group>";
+		};
+		0478B3C327BA2DE700645CC3 /* ButtonTypography */ = {
+			isa = PBXGroup;
+			children = (
+				0478B3C427BA2E0000645CC3 /* ButtonTypography.swift */,
+			);
+			path = ButtonTypography;
+			sourceTree = "<group>";
+		};
+		0478B3CA27BA316000645CC3 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FC427B66E8B00F4EE3C /* TypographySupport */,
+				047C5FCA27B66F7D00F4EE3C /* TypographyAttributedText */,
+				0478B3C327BA2DE700645CC3 /* ButtonTypography */,
+				0478B3BE27BA26F800645CC3 /* TextViewTypography */,
+				047C5FBF27B66E4600F4EE3C /* TextFieldTypography */,
+				0496EB1727B534AF0027D5A8 /* LabelTypography */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		047C5FA827B627C400F4EE3C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0496EB2427B54FEE0027D5A8 /* Roboto-Regular.ttf */,
+				0496EB2327B54FEE0027D5A8 /* Roboto-Light.ttf */,
+				0496EB2227B54FEE0027D5A8 /* Roboto-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		047C5FA927B627D300F4EE3C /* pList */ = {
+			isa = PBXGroup;
+			children = (
+				0496EB0A27B533F20027D5A8 /* Info.plist */,
+			);
+			path = pList;
+			sourceTree = "<group>";
+		};
+		047C5FB427B6462D00F4EE3C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FA827B627C400F4EE3C /* Font */,
+				0496EB0527B533F20027D5A8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		047C5FB527B6467300F4EE3C /* ApplicationMain */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FAE27B6447500F4EE3C /* main.swift */,
+				047C5FB127B6449A00F4EE3C /* TypographyApplication.swift */,
+			);
+			path = ApplicationMain;
+			sourceTree = "<group>";
+		};
+		047C5FBF27B66E4600F4EE3C /* TextFieldTypography */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FC027B66E5E00F4EE3C /* TextFieldTypography.swift */,
+			);
+			path = TextFieldTypography;
+			sourceTree = "<group>";
+		};
+		047C5FC427B66E8B00F4EE3C /* TypographySupport */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FC527B66EE400F4EE3C /* TypographySupport.swift */,
+			);
+			path = TypographySupport;
+			sourceTree = "<group>";
+		};
+		047C5FCA27B66F7D00F4EE3C /* TypographyAttributedText */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FCB27B66FAC00F4EE3C /* TypographyAttributedText.swift */,
+			);
+			path = TypographyAttributedText;
+			sourceTree = "<group>";
+		};
+		0496EAF027B533F00027D5A8 = {
+			isa = PBXGroup;
+			children = (
+				0496EAFB27B533F00027D5A8 /* TypographyLibrary */,
+				0496EAFA27B533F00027D5A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0496EAFA27B533F00027D5A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0496EAF927B533F00027D5A8 /* TypographyLibrary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0496EAFB27B533F00027D5A8 /* TypographyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0496EB1627B534980027D5A8 /* Controllers */,
+				0496EB1427B534840027D5A8 /* AppDelegate */,
+				0496EB1127B534310027D5A8 /* UI */,
+				047C5FB427B6462D00F4EE3C /* Assets */,
+				0496EB1227B534420027D5A8 /* Supporting */,
+				0478B3CA27BA316000645CC3 /* Typography */,
+				047C5FA927B627D300F4EE3C /* pList */,
+			);
+			path = TypographyLibrary;
+			sourceTree = "<group>";
+		};
+		0496EB1127B534310027D5A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0496EB0227B533F00027D5A8 /* Main.storyboard */,
+				0496EB0727B533F20027D5A8 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0496EB1227B534420027D5A8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				047C5FB527B6467300F4EE3C /* ApplicationMain */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		0496EB1427B534840027D5A8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0496EAFC27B533F00027D5A8 /* AppDelegate.swift */,
+				0496EAFE27B533F00027D5A8 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0496EB1627B534980027D5A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0496EB0027B533F00027D5A8 /* LableViewController.swift */,
+				047C5FB927B665D600F4EE3C /* TextFieldViewController.swift */,
+				047C5FD027B688C800F4EE3C /* TextViewViewController.swift */,
+				0478B3C727BA2EDF00645CC3 /* ButtonViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0496EB1727B534AF0027D5A8 /* LabelTypography */ = {
+			isa = PBXGroup;
+			children = (
+				047C5F9E27B626FA00F4EE3C /* LabelTypography.swift */,
+			);
+			path = LabelTypography;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0496EAF827B533F00027D5A8 /* TypographyLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0496EB0D27B533F20027D5A8 /* Build configuration list for PBXNativeTarget "TypographyLibrary" */;
+			buildPhases = (
+				0496EAF527B533F00027D5A8 /* Sources */,
+				0496EAF627B533F00027D5A8 /* Frameworks */,
+				0496EAF727B533F00027D5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypographyLibrary;
+			productName = TypographyLibrary;
+			productReference = 0496EAF927B533F00027D5A8 /* TypographyLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0496EAF127B533F00027D5A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0496EAF827B533F00027D5A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0496EAF427B533F00027D5A8 /* Build configuration list for PBXProject "TypographyLibrary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0496EAF027B533F00027D5A8;
+			productRefGroup = 0496EAFA27B533F00027D5A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0496EAF827B533F00027D5A8 /* TypographyLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0496EAF727B533F00027D5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496EB2727B54FEE0027D5A8 /* Roboto-Regular.ttf in Resources */,
+				0496EB2527B54FEE0027D5A8 /* Roboto-Medium.ttf in Resources */,
+				0496EB0927B533F20027D5A8 /* LaunchScreen.storyboard in Resources */,
+				0496EB2627B54FEE0027D5A8 /* Roboto-Light.ttf in Resources */,
+				0496EB0627B533F20027D5A8 /* Assets.xcassets in Resources */,
+				0496EB0427B533F00027D5A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0496EAF527B533F00027D5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496EB0127B533F00027D5A8 /* LableViewController.swift in Sources */,
+				047C5FCC27B66FAC00F4EE3C /* TypographyAttributedText.swift in Sources */,
+				047C5FAF27B6447500F4EE3C /* main.swift in Sources */,
+				047C5FBA27B665D600F4EE3C /* TextFieldViewController.swift in Sources */,
+				047C5F9F27B626FA00F4EE3C /* LabelTypography.swift in Sources */,
+				047C5FC127B66E5E00F4EE3C /* TextFieldTypography.swift in Sources */,
+				047C5FD127B688C800F4EE3C /* TextViewViewController.swift in Sources */,
+				0496EAFD27B533F00027D5A8 /* AppDelegate.swift in Sources */,
+				0478B3C827BA2EDF00645CC3 /* ButtonViewController.swift in Sources */,
+				047C5FC627B66EE400F4EE3C /* TypographySupport.swift in Sources */,
+				0496EAFF27B533F00027D5A8 /* SceneDelegate.swift in Sources */,
+				0478B3C527BA2E0000645CC3 /* ButtonTypography.swift in Sources */,
+				0478B3C027BA271A00645CC3 /* TextViewTypography.swift in Sources */,
+				047C5FB227B6449A00F4EE3C /* TypographyApplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0496EB0227B533F00027D5A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0496EB0327B533F00027D5A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0496EB0727B533F20027D5A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0496EB0827B533F20027D5A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0496EB0B27B533F20027D5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0496EB0C27B533F20027D5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0496EB0E27B533F20027D5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TypographyLibrary/pList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chetan.TypographyLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0496EB0F27B533F20027D5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TypographyLibrary/pList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chetan.TypographyLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0496EAF427B533F00027D5A8 /* Build configuration list for PBXProject "TypographyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496EB0B27B533F20027D5A8 /* Debug */,
+				0496EB0C27B533F20027D5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0496EB0D27B533F20027D5A8 /* Build configuration list for PBXNativeTarget "TypographyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496EB0E27B533F20027D5A8 /* Debug */,
+				0496EB0F27B533F20027D5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0496EAF127B533F00027D5A8 /* Project object */;
+}
